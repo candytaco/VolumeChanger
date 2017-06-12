@@ -1,0 +1,15 @@
+﻿<Window x:Class="Volume_Changer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Volume_Changer"
+        mc:Ignorable="d"
+        Title="Horse beat volume" Height="333.781" Width="374.756">
+	<Grid Height="279" VerticalAlignment="Top">
+		<MediaElement x:Name="deadHorse" MediaEnded="deadHorse_MediaEnded" UnloadedBehavior="Manual" LoadedBehavior="Manual" Stretch="None" Source="deadhorse.gif" Width="300" Height="232" Margin="34,10,34,0"/>
+		<Button x:Name="button" Content="Stop" Margin="145,266,151,-6" VerticalAlignment="Top" Click="button_Click"/>
+		<Label x:Name="label" Content="0" HorizontalAlignment="Center" Margin="65,62,239,0" VerticalAlignment="Top" FontSize="48" Width="64" HorizontalContentAlignment="Right"/>
+
+	</Grid>
+</Window>
