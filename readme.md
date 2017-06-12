@@ -1,6 +1,6 @@
 Changes volume by beating a dead horse
 
-![Horse beat volume changer](http://i.imgur.com/JtGreo2.gifv)
+![Horse beat volume changer](https://i.imgur.com/JtGreo2.gifv)
 
 Number accurately reflects current system volume!
 
